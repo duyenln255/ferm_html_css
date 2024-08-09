@@ -1,0 +1,11 @@
+img.wp-smiley, img.emoji {
+    display: inline !important; /* Hiển thị các biểu tượng cảm xúc như một phần của văn bản */
+    border: none !important; /* Loại bỏ đường viền cho biểu tượng cảm xúc */
+    box-shadow: none !important; /* Không có hiệu ứng bóng đổ */
+    height: 1em !important; /* Chiều cao của biểu tượng cảm xúc bằng với chiều cao của ký tự */
+    width: 1em !important; /* Chiều rộng của biểu tượng cảm xúc bằng với chiều rộng của ký tự */
+    margin: 0 0.07em !important; /* Cài đặt khoảng cách nhỏ giữa các biểu tượng */
+    vertical-align: -0.1em !important; /* Căn chỉnh theo chiều dọc của biểu tượng cảm xúc với văn bản */
+    background: none !important; /* Không có nền cho biểu tượng cảm xúc */
+    padding: 0 !important; /* Không có khoảng đệm cho biểu tượng cảm xúc */
+}            

@@ -1,0 +1,14 @@
+.wp-block-button__link {
+    color: #fff; /* Màu chữ của nút là trắng */
+    background-color: #32373c; /* Màu nền của nút là xám đen */
+    border-radius: 9999px; /* Bo góc của nút thành hình tròn */
+    box-shadow: none; /* Không có hiệu ứng bóng đổ */
+    text-decoration: none; /* Không có gạch dưới cho liên kết */
+    padding: calc(.667em + 2px) calc(1.333em + 2px); /* Khoảng cách bên trong của nút */
+    font-size: 1.125em; /* Kích thước chữ lớn hơn một chút */
+}
+.wp-block-file__button {
+    background: #32373c; /* Màu nền của nút file là xám đen */
+    color: #fff; /* Màu chữ của nút file là trắng */
+    text-decoration: none; /* Không có gạch dưới cho liên kết */
+}

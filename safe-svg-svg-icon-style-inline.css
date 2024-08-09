@@ -1,0 +1,14 @@
+
+.safe-svg-cover {
+    text-align: center; /* Căn giữa nội dung SVG */
+}
+.safe-svg-cover .safe-svg-inside {
+    display: inline-block; /* Hiển thị nội dung SVG như một khối nội tuyến */
+    max-width: 100%; /* Giới hạn chiều rộng tối đa của SVG là 100% */
+}
+.safe-svg-cover svg {
+    height: 100%; /* Chiều cao của SVG bằng 100% chiều cao của vùng chứa */
+    max-height: 100%; /* Chiều cao tối đa của SVG là 100% */
+    max-width: 100%; /* Chiều rộng tối đa của SVG là 100% */
+    width: 100%; /* Chiều rộng của SVG bằng 100% chiều rộng của vùng chứa */
+}
